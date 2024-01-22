@@ -1,0 +1,102 @@
+.login-container {
+  /* padding-bottom: 98px; */
+  background-color: rgb(237, 236, 236);
+  height: 833px;
+}
+.login-container .login-box-contents {
+  /* background-image: linear-gradient(
+    to right bottom,
+    #feddf6,
+    #f2d9f5,
+    #e5d5f3,
+    #d8d1f1,
+    #cacded,
+    #c2d0ef,
+    #bbd3f0,
+    #b5d6ef,
+    #b5e0f4,
+    #b8e9f6,
+    #bdf2f7,
+    #c6fbf7
+  ); */
+  background-color: #f1f6fc;
+  box-shadow: 0px 0px 5px 5px rgba(224, 224, 224, 0.75);
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 150px;
+  border-radius: 20px;
+}
+.login-container .login-box-contents .text-inputs {
+  width: 80%;
+  margin-left: 10%;
+  height: 50px;
+  margin-top: 50px;
+  background-color: red;
+  border: none;
+}
+.login-container .header-box {
+  text-align: center;
+  padding: 20px;
+}
+.login-container .header-box .login-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  color: #9c27b0;
+}
+.login-container .login-box-contents .input-field {
+  border: none;
+}
+.login-container .login-box-contents .input-contents {
+  width: 80%;
+  margin-left: 10%;
+  border: none;
+}
+.login-container .login-box-contents .form-control-wrap {
+  border: none;
+  border-radius: 5px;
+}
+.login-container .login-box-contents .input-field {
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px rgba(224, 224, 224, 0.75);
+  height: 60px;
+  width: 100%;
+}
+.login-container .login-box-contents .sing-btn {
+  background-color: #9c27b0;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.login-container .login-box-contents .login-bot-wrap {
+  width: 100%;
+  background-color: white;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.login-container .login-box-contents .bottom-text-wrap {
+  line-height: 3.2rem;
+  padding-left: 20px;
+
+  box-shadow: 0px 0px 20px 1px rgba(224, 224, 224, 0.75);
+}
+.login-btn:active {
+  background-color: blue;
+}
+.login-container .header-box .active .login-btn {
+  background-color: #9c27b0;
+  color: white;
+}
+.login-container .header-box .login-btn:hover {
+  background-color: #9c27b0;
+  color: white;
+}
+.login-container .login-box-contents .error-wrap {
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  bottom: -20px;
+}

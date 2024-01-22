@@ -1,0 +1,604 @@
+@media screen and (min-width: 1200px) {
+  .Data-wrapper .card {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    height: 47rem;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(172, 172, 172, 0.75);
+  }
+  .Data-wrapper .selected-row {
+    text-align: left;
+    margin-top: 1px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  .Data-wrapper .card .fixed-scroll-wrap {
+    margin-bottom: 100px;
+  }
+  .Data-wrapper .selected-row:hover {
+    background-color: rgb(236, 246, 255);
+  }
+  .Data-wrapper .avatar {
+    margin-top: 12px;
+  }
+  .Data-wrapper .scroll-wrapper {
+    overflow-y: scroll;
+  }
+  .Data-wrapper .card .card-top-wrapper {
+    margin-bottom: 50px;
+  }
+  .Data-wrapper .card .Edit-icon {
+    font-size: 28px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .Data-wrapper .card .fav-icon {
+    font-size: 28px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .Data-wrapper .card .Delete-icon {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .Data-wrapper .card .images {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    margin: auto;
+  }
+  .Data-wrapper .card .breaking-wrap {
+    background-color: rgb(236, 246, 255);
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 17px;
+    padding-bottom: 20px;
+  }
+  .Data-wrapper .card .Card-container-wrap {
+    padding: 0px 10px 15px 10px;
+  }
+  .Data-wrapper .card .Form-head-contents {
+    width: 98%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+  }
+  .Data-wrapper .card .form-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 50px;
+    font-size: 16px;
+    /* border: none; */
+    font-weight: 500;
+  }
+  .Data-wrapper .card .form-two-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+  }
+  .Data-wrapper .card .label-title {
+    margin-left: 20px;
+  }
+  .Data-wrapper .card .avatar-list {
+    margin-top: 15px;
+  }
+  .Data-wrapper .card .icon-wrap-fix {
+    color: rgb(104, 103, 103);
+    margin-top: 10px;
+  }
+  .Data-wrapper .card .btn-primary {
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+  .Data-wrapper .card .add-btn {
+    margin-left: 5%;
+    /* padding: 10px 50px; */
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 65%;
+  }
+  .Data-wrapper .card .tx-right {
+    text-align: end;
+    margin-left: 78%;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    width: 10%;
+  }
+  .Data-wrapper .card .form-two-wrapper-adding {
+    width: 90%;
+    margin-left: 13%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+  }
+  .Data-wrapper .card .remove-icon {
+    margin-top: 40px;
+    margin-bottom: -40px;
+  }
+  .Data-wrapper .card .call-icons {
+    font-size: 40px;
+  }
+  .Data-wrapper .card .box-wrap-content {
+    text-align: center;
+  }
+  .Data-wrapper .card .box-model-wrap {
+    position: absolute;
+    width: 25.5%;
+    margin-left: 0px;
+    bottom: 35px;
+    border-radius: 0px 0px 0px 30px;
+    background-color: rgb(245, 245, 245);
+  }
+  .Data-wrapper .card .Add-contact {
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .Data-wrapper .card .inline-wrap {
+    display: inline-block;
+  }
+  .Data-wrapper .card .add-icon {
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: -5px;
+  }
+  .Data-wrapper .card .box-contents {
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(246, 246, 246);
+  }
+  .Data-wrapper .card .fav-box-wrapper {
+    text-align: center;
+  }
+  .Data-wrapper .card .badge-wrap {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  .Data-wrapper .card .badge-wrap .MuiBadge-badge {
+    width: 40px;
+    height: 40px;
+  }
+  .Data-wrapper .card .badge-wrap .MuiAvatar-root {
+    width: 80px;
+    height: 80px;
+  }
+  .Data-wrapper .card .fav-icon {
+    font-size: 30px;
+  }
+  .Data-wrapper .card .badge-wrap .badge-content {
+    margin-left: -15px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  .Data-wrapper .card {
+    margin-top: 30px;
+    width: 98%;
+    margin-left: 1%;
+    height: 47rem;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(172, 172, 172, 0.75);
+  }
+  .Data-wrapper .selected-row {
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 30px;
+    text-align: left;
+    border-radius: 10px;
+  }
+  .Data-wrapper .selected-row:hover {
+    background-color: rgb(236, 246, 255);
+  }
+  .Data-wrapper .avatar {
+    margin-top: 12px;
+  }
+  .Data-wrapper .scroll-wrapper {
+    overflow-y: scroll;
+  }
+  .Data-wrapper .card .card-top-wrapper {
+    margin-bottom: 50px;
+  }
+  .Data-wrapper .card .Edit-icon {
+    font-size: 28px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+  .Data-wrapper .card .Delete-icon {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  .Data-wrapper .card .images {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    margin: auto;
+  }
+  .Data-wrapper .card .breaking-wrap {
+    background-color: rgb(236, 246, 255);
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .Data-wrapper .card .Card-container-wrap {
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .Data-wrapper .card .Form-head-contents {
+    width: 98%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+  }
+  .Data-wrapper .card .form-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 50px;
+    font-size: 16px;
+    /* border: none; */
+    font-weight: 500;
+  }
+  .Data-wrapper .card .form-two-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+  }
+  .Data-wrapper .card .label-title {
+    margin-left: 20px;
+  }
+  .Data-wrapper .card .box-model {
+    position: absolute;
+    border-radius: 50%;
+    font-size: 35px;
+    bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 13%;
+  }
+  .Data-wrapper .card .avatar-list {
+    margin-top: 15px;
+  }
+  .Data-wrapper .card .icon-wrap-fix {
+    color: rgb(104, 103, 103);
+    margin-top: 10px;
+  }
+  .Data-wrapper .card .btn-primary {
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+  .Data-wrapper .card .add-btn {
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 65%;
+  }
+  .Data-wrapper .card .tx-right {
+    text-align: end;
+    margin-left: 78%;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    width: 10%;
+  }
+  .Data-wrapper .card .form-two-wrapper-adding {
+    width: 90%;
+    margin-left: 13%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+  }
+  .remove-icon {
+    margin-top: 45px;
+    margin-bottom: -27px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .Data-wrapper .card {
+    margin-top: 30px;
+    width: 98%;
+    margin-left: 1%;
+    height: 47rem;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(172, 172, 172, 0.75);
+  }
+  .Data-wrapper .selected-row {
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 30px;
+    text-align: left;
+    border-radius: 10px;
+  }
+  .Data-wrapper .selected-row:hover {
+    background-color: rgb(236, 246, 255);
+  }
+  .Data-wrapper .avatar {
+    margin-top: 12px;
+  }
+  .Data-wrapper .scroll-wrapper {
+    overflow-y: scroll;
+  }
+  .Data-wrapper .card .card-top-wrapper {
+    margin-bottom: 50px;
+  }
+  .Data-wrapper .card .Edit-icon {
+    font-size: 28px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+  .Data-wrapper .card .Delete-icon {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  .Data-wrapper .card .images {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    margin: auto;
+  }
+  .Data-wrapper .card .breaking-wrap {
+    background-color: rgb(236, 246, 255);
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .Data-wrapper .card .Card-container-wrap {
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .Data-wrapper .card .Form-head-contents {
+    width: 98%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+  }
+  .Data-wrapper .card .form-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 50px;
+    font-size: 16px;
+    /* border: none; */
+    font-weight: 500;
+  }
+  .Data-wrapper .card .form-two-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+  }
+  .Data-wrapper .card .label-title {
+    margin-left: 20px;
+  }
+  .Data-wrapper .card .box-model {
+    position: absolute;
+    border-radius: 50%;
+    font-size: 35px;
+    bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 13%;
+  }
+  .Data-wrapper .card .avatar-list {
+    margin-top: 15px;
+  }
+  .Data-wrapper .card .icon-wrap-fix {
+    color: rgb(104, 103, 103);
+    margin-top: 10px;
+  }
+  .Data-wrapper .card .btn-primary {
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+  .Data-wrapper .card .add-btn {
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 65%;
+  }
+  .Data-wrapper .card .tx-right {
+    text-align: end;
+    margin-left: 78%;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    width: 10%;
+  }
+  .Data-wrapper .card .form-two-wrapper-adding {
+    width: 90%;
+    margin-left: 13%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+  }
+  .remove-icon {
+    margin-top: 45px;
+    margin-bottom: -27px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Data-wrapper .card {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+    height: 47rem;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(172, 172, 172, 0.75);
+  }
+  .Data-wrapper .selected-row {
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 30px;
+    text-align: left;
+    border-radius: 10px;
+  }
+  .Data-wrapper .selected-row:hover {
+    background-color: rgb(236, 246, 255);
+  }
+  .Data-wrapper .avatar {
+    margin-top: 12px;
+  }
+  .Data-wrapper .scroll-wrapper {
+    overflow-y: scroll;
+  }
+  .Data-wrapper .card .card-top-wrapper {
+    margin-bottom: 50px;
+  }
+  .Data-wrapper .card .Edit-icon {
+    font-size: 28px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+  .Data-wrapper .card .Delete-icon {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  .Data-wrapper .card .images {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    margin: auto;
+  }
+  .Data-wrapper .card .breaking-wrap {
+    background-color: rgb(236, 246, 255);
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .Data-wrapper .card .Card-container-wrap {
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .Data-wrapper .card .Form-head-contents {
+    width: 98%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+  }
+  .Data-wrapper .card .form-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 50px;
+    font-size: 16px;
+    /* border: none; */
+    font-weight: 500;
+  }
+  .Data-wrapper .card .form-two-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+  }
+  .Data-wrapper .card .label-title {
+    margin-left: 20px;
+  }
+  .Data-wrapper .card .box-model {
+    position: absolute;
+    border-radius: 50%;
+    font-size: 35px;
+    bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 13%;
+  }
+  .Data-wrapper .card .avatar-list {
+    margin-top: 15px;
+  }
+  .Data-wrapper .card .icon-wrap-fix {
+    color: rgb(104, 103, 103);
+    margin-top: 10px;
+  }
+  .Data-wrapper .card .btn-primary {
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+  .Data-wrapper .card .add-btn {
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 65%;
+  }
+  .Data-wrapper .card .tx-right {
+    text-align: end;
+    margin-left: 78%;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    width: 10%;
+  }
+  .Data-wrapper .card .form-two-wrapper-adding {
+    width: 90%;
+    margin-left: 13%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+  }
+  .remove-icon {
+    margin-top: 45px;
+    margin-bottom: -27px;
+  }
+}
